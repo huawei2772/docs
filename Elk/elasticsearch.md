@@ -26,5 +26,9 @@ cd $ES_HOME
 ### 以守护进程模式运行
 ```
 ./bin/elasticsearch -d -p pid
-pkill -F pid // 关闭后天守护进程
+
+# 关闭后台守护进程
+pkill -F pid 
 ```
+
+## 
